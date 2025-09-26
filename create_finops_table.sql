@@ -1,4 +1,6 @@
-    CREATE OR REPLACE TRANSIENT TABLE dev_front.finops_bronze.snowflake_finops AS 
+--  USE DATABASE
+-- USE SCHEMA
+CREATE OR REPLACE TRANSIENT TABLE snowflake_finops AS 
     WITH warehouse_metering_history AS (
         SELECT 
             TO_CHAR(DATE_TRUNC('month', start_time), 'YYYYMM') AS maand,  
