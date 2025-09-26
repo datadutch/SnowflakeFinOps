@@ -1,5 +1,5 @@
 # Snowflake FinOps
-Queries for getting FinOps data from Snowflake
+This repo contains queries for getting FinOps data from Snowflake as well as some Streamlit apps to prepare data and visualize it
 
 ## Layout of the Streamlit dashboard
 Note: this is completely vibe-coded
