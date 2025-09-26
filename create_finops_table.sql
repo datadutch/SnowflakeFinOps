@@ -1,4 +1,4 @@
---  USE DATABASE
+-- USE DATABASE
 -- USE SCHEMA
 CREATE OR REPLACE TRANSIENT TABLE snowflake_finops AS 
     WITH warehouse_metering_history AS (
